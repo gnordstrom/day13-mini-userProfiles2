@@ -1,0 +1,17 @@
+body {
+  background-color: steelblue;
+}
+
+.boxes {
+  width: 35vw;
+  margin: 10px auto;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: fantasy;
+  color: white;
+}
+
+.buttons {
+  text-align: center;
+
+}

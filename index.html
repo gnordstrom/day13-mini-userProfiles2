@@ -2,9 +2,15 @@
 <html ng-app="userProfiles">
 <head>
   <title>User Profiles</title>
+  <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body ng-controller="MainController">
-  <div ng-repeat="user in users">
+
+<div class="buttons">
+  <button ng-click="previous()">Previous</button>
+  <button ng-click="next()">Next</button>
+</div>
+  <div class="boxes" ng-repeat="user in users">
     <h1>{{user.first_name}} {{user.last_name}}</h1>
     <img src="{{user.avatar}}">
     <hr>
